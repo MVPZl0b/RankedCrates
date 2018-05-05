@@ -1,0 +1,8 @@
+name: RankCrates
+main: main.main
+version: 0.1ALPHA
+author: Garbage
+description: none
+commands:
+   Crate:
+     description: none
