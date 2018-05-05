@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="RankCrates">
+    <output-path>$USER_HOME$/Desktop/New folder/plugins</output-path>
+    <root id="archive" name="RankCrates.jar">
+      <element id="module-output" name="RankCrates" />
+      <element id="file-copy" path="$USER_HOME$/Dropbox/Eclipse/Dependencies/worldguard-6.1.jar" />
+    </root>
+  </artifact>
+</component>

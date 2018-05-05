@@ -1,0 +1,67 @@
+Rewards:
+    Immortal:
+      Chance: 14
+      Name: "&c&lImmortal Rank"
+      Material: PAPER
+      Lore:
+      - "&c&lRight click to claim this"
+      - "&c&land receive Immortal Rank!"
+      Commands:
+      - "pex user {name} group add Immortal"
+      - "msg {name} You have successfully claimed an Immortal Rank!"
+    Warlord:
+      Chance: 14
+      Name: "&c&lWarlord Rank"
+      Material: PAPER
+      Lore:
+      - "&c&lRight click to claim this"
+      - "&c&land receive Warlord Rank!"
+      Commands:
+      - "pex user {name} group add Warlord"
+      - "msg {name} You have successfully claimed a Warlord Rank!"
+
+Crates:
+    Immortal:
+      Name: "&c&lImmortal Crate"
+      Material: COAL_BLOCK
+      Lore:
+      - "&d&lThis is an Immortal crate!"
+      - "&d&lPlace this
+      Rewards: on the ground and defend it against enemies for 30 seconds!"
+      AmountOfRewards: 1
+      - Immortal
+      - Warlord
+    Warlord:
+      Name: "&c&lWarlord Crate"
+      Material: DIAMOND_BLOCK
+      Lore:
+      - "&d&lThis is a Warlord crate!"
+      - "&d&lPlace this on the ground and defend it against enemies for 30 seconds!"
+      AmountOfRewards: 1
+      Rewards:
+      - Immortal
+
+Settings:
+    DefendTime: 30
+    AllowedWorlds:
+    - world
+    - world_the_end
+    RandomReward: false
+    BeaconBeam: true
+    GivePermission: Crates.Give
+    ReloadPermission: Crates.Reload
+
+Messages:
+    ConfigReloaded: "&cThe Config has been reloaded!"
+    CorrectUsage: "&c&lCorrect Usage: /Crate give (player) (type) (amount)"
+    InvalidUser: "&c&lInvalid User!"
+    NotInWarzone: "&c&lYou must place a crate in the warzone!"
+    CannotBreakCrate: "&c&lYou Cannot break an active crate!"
+    BreakTheChest: "&c&lYou must break the chest to get the rewards!"
+    AlreadyActiveCrate: "&c&lThere is already an active crate!"
+    CrateAnnouncement: "&b&lAn &c&l{type}&b&l crate has spawned at &c&l{x}&b,&c&l{y}&b,&c&l{z}"
+    BrokenCrate: "&b&lA &c&l{type}&b&l crate has been broken!"
+    ChestSpawned: "&b&lThe &c&l{type}&b&l crate &b&l has turned into a breakable chest!"
+    Help:
+    - "&c/Crate give (username) (type) (amount)"
+    - "&c/Crate reload"
